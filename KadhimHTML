@@ -14,12 +14,24 @@
 	<body>
 		<div class="container">
 			<h1>Dropdown Menu</h1>
-			<select>
-				<option value="projects">Projects</option>
-				<option value="marathons">Marathons</option>
-				<option value="journalism">Journalism</option>
-				<option value="work">Work</option>
-			</select>
+			<ul class="Dropdown">
+				<li>Home</li>
+				<li>Porfolio
+					<ul>
+						<li>Amazing project</li>
+						<li>Not quite as amazing</li>
+						<li>OMG it's beautiful</li>
+					</ul>
+				</li>
+				<li>Photography
+					<ul>
+						<li>Cats</li>
+						<li>Kittens</li>
+						<li>More cats</li>
+					</ul>
+				</li>
+				<li>Contact me</li>
+
 		</div>
 		
 		<!-- Load in jQuery -->
